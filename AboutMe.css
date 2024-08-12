@@ -1,0 +1,101 @@
+
+.body{
+    background-image: url(C:\Users\user\Desktop\PORTFOLIO\background.png);
+}
+.container{
+    
+    display: inline-table;
+}
+.AboutNavbar{
+   
+    width: 100%;
+}
+.AboutNav{
+    width: 100%;
+    background-color: #3333;
+    overflow: hidden;
+}
+.AboutNav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+.AboutNav a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 14px 20px;
+    display: inline;
+    text-align: center;
+}
+.AboutNav a:hover{
+    background-color: #575757;
+    color: #ffcc00;
+}
+.container1{
+    justify-content: space-between;
+    
+}
+.container1 .AboutImage{
+    float: left;
+    margin-right: 20px;
+    
+}
+.AboutImage{
+    display: inline;
+    margin: initial;
+    
+}
+.BiographyStatement{
+    display: inline;
+}
+.BiographyStatement p{
+    margin-top: 0;
+    color: white;
+    margin-right: 150px;  
+}
+.line{
+    border-top: 5px solid black;
+    width: 50%;
+    margin-left: 0;
+}
+
+.interest{
+    margin: 10px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.finishLine{
+    border-top: solid white;
+    width: 60%;
+    margin-left: 75px;
+}
+
+.line-container {
+    position: relative;
+    margin-left: 30px;
+    width: 95%;
+    height: 20px; /* Adjust height as needed */
+    border-top: 1px solid #fff; /* Line color */
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    color: #fff; /* Text color */
+    font-size: 16px; /* Adjust font size as needed */
+    /* Add this to create space between the line and text */
+    padding-left: 5px; /* Adjust padding as needed */
+}
