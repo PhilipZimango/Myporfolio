@@ -1,36 +1,11 @@
 .body{
-    background-image: url(C:\Users\user\Desktop\PORTFOLIO\background.png);
-}
-
-.AboutNav{
-    width: 100%;
-    background-color: #3333;
-    overflow: hidden;
-}
-.AboutNav ul{
-    list-style-type: none;
-    display: flex;
-    justify-content: space-around;
-    padding: 10px 0;
-}
-
-.AboutNav a{
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    padding: 14px 20px;
-    display: inline;
-    text-align: center;
-}
-.AboutNav a:hover{
-    background-color: #575757;
-    color: #ffcc00;
+    background-image: url(background.png);
 }
 .projectsNavbar{
     background-color: #fff;
 }
 .projectsNav{
-    background-color: #ffcc00;
+    background-color: #2123c2;
 }
 nav ul{
     list-style: none;
@@ -51,4 +26,12 @@ nav ul{
     background-color: #3333;
     color: #ffcc00;
 
+}
+.dot-pattern{
+    width: 100px;
+    height: 100px;
+    background-image: radial-gradient(circle, white, white 2px, transparent 2px);
+    background-size: 20px 20px;
+    background-position: left center;
+    margin: 50px;
 }
