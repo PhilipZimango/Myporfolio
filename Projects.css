@@ -34,11 +34,8 @@ nav ul{
 .header-items{
     display: inline;
 }
-.dot-pattern{
-    width: 100px;
-    height: 100px;
-    background-image: radial-gradient(circle, white, white 2px, transparent 2px);
-    background-size: 20px 20px;
-    background-position: left center;
-    align-items: center;
+
+.project-images{
+    display: flex;
+    justify-content: space-between;
 }
