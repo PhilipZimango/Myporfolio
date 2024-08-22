@@ -39,3 +39,35 @@ nav ul{
     display: flex;
     justify-content: space-between;
 }
+.project-buttons{
+    display: flex;
+    justify-content: space-between;
+}
+.project-button1{
+    background-color: #ffcc00;
+    margin-top: 10px;
+    margin-right: 300px;
+    border-radius: 40px;
+    padding: 14px 20px;
+    color: #070602;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.project-button{
+    background-color: #ffcc00;
+    margin-top: 10px;
+    margin-left: 300px;
+    border-radius: 40px;
+    padding: 14px 20px;
+    color: #070602;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.project-paragraph{
+    display: flex;
+    justify-content: space-between;
+}
