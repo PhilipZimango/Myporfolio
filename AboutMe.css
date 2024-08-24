@@ -6,20 +6,13 @@
     
     display: inline-table;
 }
-.AboutNavbar{
-   
-    width: 100%;
-}
+
 .AboutNav{
-    width: 100%;
-    background-color: #3333;
     overflow: hidden;
 }
-.AboutNav ul{
-    list-style-type: none;
+.AboutNav ul{ 
     display: flex;
-    justify-content: space-around;
-    padding: 10px 0;
+    justify-content: space-around;   
 }
 
 .AboutNav a{

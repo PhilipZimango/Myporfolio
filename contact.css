@@ -1,0 +1,17 @@
+.Contactnav{
+    overflow: hidden;
+}
+.Contactnav ul{
+    background-color: blue;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.Contactnav a{
+    background-color: blue;
+    color: white;
+}
+.Contactnav a:hover{
+    color: yellow;
+}
